@@ -8,5 +8,5 @@ project (
 )
 
 add_compile_options("-shared")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../DllImport)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ../../DllImport)
 add_library(palindrome SHARED palindrome.cpp)
